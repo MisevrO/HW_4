@@ -194,7 +194,7 @@ for name, info in student.items():
     avg_mark = info['Середній бал']
     if avg_mark > 90:
         best_student.append((name, avg_mark))
-        print(best_student)
+print(best_student)
 
 # 3) визначити середній бал по групі
 group_marks = []
